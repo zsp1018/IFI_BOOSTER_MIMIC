@@ -1,7 +1,3 @@
-# Task-specific models and data (stored per robot/task)
-tasks/*/models/
-tasks/*/motions/
-
 .DS_Store
 
 # Common Python temporary files
@@ -9,5 +5,4 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
-
 
