@@ -7,7 +7,7 @@ from booster_deploy.robots.booster import T1_23DOF_CFG
 from booster_deploy.utils.isaaclab import math as lab_math
 from booster_deploy.utils.isaaclab.configclass import configclass
 
-from tasks.kicking_mimic.kicking_mimic import (
+from tasks.kick.kick import (
     T1KickingMimicPolicy,
     T1KickingMimicPolicyCfg,
 )

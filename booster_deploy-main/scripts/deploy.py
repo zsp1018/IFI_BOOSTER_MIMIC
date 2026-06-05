@@ -1,10 +1,12 @@
 import argparse
+from pathlib import Path
 import sys
 
 # 允许脚本从仓库根目录直接导入本地包，例如 tasks、booster_deploy 等。
 # 运行方式通常是：
 #   python scripts/deploy.py --task <task_name> ...
-sys.path.append(".")
+REPO_ROOT = Path(__file__).resolve().parents[1]
+sys.path.append(str(REPO_ROOT))
 
 # 命令行参数解析器。这个脚本是部署入口，可以列出任务、启动 MuJoCo
 # 仿真、启动 Webots 仿真，或者连接真实机器人运行策略。
