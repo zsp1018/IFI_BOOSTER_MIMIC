@@ -98,7 +98,14 @@ booster_assets-main/motions/T1/video_012.npz
 3. 准备 `booster_assets`：
 
    - 克隆 [booster_assets](https://github.com/BoosterRobotics/booster_assets)
-   - 按照其仓库说明安装 `booster_assets` Python helper
+   - 安装 `booster_assets` Python helper：
+
+   ```bash
+   cd booster_assets-main
+   pip install -e .
+   cd ..
+   ```
+
    - 确保动作资源可用；当前仓库默认会优先读取已安装的 `booster_assets`，也兼容仓库内的 `booster_assets-main`
 
 4. 安装训练侧代码：
