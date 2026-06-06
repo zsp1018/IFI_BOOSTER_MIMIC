@@ -21,7 +21,7 @@
 <div>
   <p>
     <strong>T1重定向动作（video_012.npz）</strong><br>
-    <img src="docs/media/t1_video_012.gif" height="300" alt="T1重定向动作（video_012.npz）">
+    <img src="docs/media/t1_video_012.gif" height="400" alt="T1重定向动作（video_012.npz）">
   </p>
   <table>
     <tr>
